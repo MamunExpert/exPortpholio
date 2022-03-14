@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Righteous&display=swap');
+
+
+
+.navbar{
+    padding: 0 40px;
+}
+.ex-title{
+    font-family: 'Righteous', cursive;
+}
+
+.mamun{
+    font-size: 30px;
+}
+
+.nav-item{
+    padding: 0 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.carousel-caption h2{
+    text-shadow: 0px 0px 5px black;
+}
+
+
+.section-head{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: darkred;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.section-title{
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.sec-sub-title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.section-text{
+    font-size: 15px;
+    text-align: justify;
+}
+    /* about me */
+
+.container{
+    margin: 100px 30px;
+}
+
+.about-img{
+    width: 100%;
+    height: auto;
+}
+
+.section-bttn{
+    margin: 20px 5px 5px 5px;
+}
+
+.srch-bttn{
+    border: 1px solid white;
+}
+
+.border{
+    padding: 50px;
+    border-radius: 10px;
+}

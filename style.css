@@ -52,8 +52,8 @@
 }
     /* about me */
 
-.container{
-    margin: 100px 30px;
+.about-continer{
+    margin: 100px 0 150px 0;
 }
 
 .about-img{
@@ -72,4 +72,140 @@
 .border{
     padding: 50px;
     border-radius: 10px;
+}
+
+
+    /* my skills */
+.skill-container{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 200px;
+}
+
+
+.progress{
+    margin: 15px 0 10px 0;
+}
+
+ 
+    /* work experience */
+
+.portpholio-container{
+    margin-bottom: 200px;
+}
+
+.title2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+    /* contact me */
+
+.sec-2{
+    background-image: url(assets/images/contact-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 100px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px;
+}
+
+.contact-form{
+    width: 60%;
+    padding: 10px;
+}
+
+.contact-form input{
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+#txt-area{
+    width: 100%;
+    height: 80px;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    outline: none;
+    border: none;
+}
+
+.brdr-focus:focus{
+    background-color:rgb(1, 98, 255);
+    color: white;
+    border: 1px solid white;
+    transition: .5s;
+}
+.contact-form button{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+    outline: none;
+    color: rgb(1, 98, 255);
+    background-color: white;
+    font-weight: bold;
+    border: 2px solid rgb(1, 98, 255);
+    transition: .5s;
+}
+
+.contact-form button:hover{
+    color:white;
+    background-color: rgb(1, 98, 255);
+    border: 2px solid transparent;
+}
+.contact_right{
+    position: absolute;
+    right: 4%;
+    top: 30%;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 5px 10px black;
+}
+
+.form-set{
+    padding: 10px 20px;
+}
+
+
+    /*     footer     */
+.footer-container{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.fa{
+    background-color: gray;
+    border: 3px solid white;
+    height: 45px;
+    width: 45px;
+    transition: ease 0.4s;
+}
+
+.fa:hover{
+    background-color: white;
+    border: 3px solid transparent;
+}
+
+.social-media i{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.footer-bottom{
+    margin-top: 10px;
 }
